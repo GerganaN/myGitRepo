@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="348" started-at="2013-11-29T13:38:20Z" finished-at="2013-11-29T13:38:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="348" started-at="2013-11-29T13:38:20Z" finished-at="2013-11-29T13:38:20Z">
+      <class name="com.skrill.interns.tests.CountryTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.CountryTest@3acafb56]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addTown_when_town_is_added()[pri:0, instance:com.skrill.interns.tests.CountryTest@3acafb56]" name="addTown_when_town_is_added" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTown_when_town_is_added -->
+        <test-method status="PASS" signature="addTown_when_town_is_null()[pri:0, instance:com.skrill.interns.tests.CountryTest@3acafb56]" name="addTown_when_town_is_null" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTown_when_town_is_null -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.CountryTest@3acafb56]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.skrill.interns.tests.CountryTest -->
+      <class name="com.skrill.interns.tests.StatisticsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="181" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="averageAge_invokes_getCountPopAge()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="averageAge_invokes_getCountPopAge" duration-ms="48" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- averageAge_invokes_getCountPopAge -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="averageAge_invokes_getCountPopulation()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="averageAge_invokes_getCountPopulation" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- averageAge_invokes_getCountPopulation -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="averageAge_when_getCountPopulation_is_zero()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="averageAge_when_getCountPopulation_is_zero" duration-ms="4" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- averageAge_when_getCountPopulation_is_zero -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="averageAge_when_town_is_null()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="averageAge_when_town_is_null" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- averageAge_when_town_is_null -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="averageTest_when_result_is_35()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="averageTest_when_result_is_35" duration-ms="2" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- averageTest_when_result_is_35 -->
+        <test-method status="PASS" signature="dominantSex_invokes_getCountMen()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="dominantSex_invokes_getCountMen" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dominantSex_invokes_getCountMen -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dominantSex_invokes_getCountWomen()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="dominantSex_invokes_getCountWomen" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dominantSex_invokes_getCountWomen -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dominantSex_when_men_are_more()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="dominantSex_when_men_are_more" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dominantSex_when_men_are_more -->
+        <test-method status="PASS" signature="dominantSex_when_women_are_more()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="dominantSex_when_women_are_more" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dominantSex_when_women_are_more -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dominantSexy_when_town_is_null()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="dominantSexy_when_town_is_null" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dominantSexy_when_town_is_null -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="oldestTown_methods_are_invoked()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="oldestTown_methods_are_invoked" duration-ms="19" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oldestTown_methods_are_invoked -->
+        <test-method status="PASS" signature="oldestTown_when_country_is_null()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="oldestTown_when_country_is_null" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oldestTown_when_country_is_null -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="populationDensity_divide_by_zero()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="populationDensity_divide_by_zero" duration-ms="3" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populationDensity_divide_by_zero -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="populationDensity_invokes_getArea()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="populationDensity_invokes_getArea" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populationDensity_invokes_getArea -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="populationDensity_invokes_getCountPopulation()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="populationDensity_invokes_getCountPopulation" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populationDensity_invokes_getCountPopulation -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="populationDensity_is_town_is_null()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="populationDensity_is_town_is_null" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populationDensity_is_town_is_null -->
+        <test-method status="PASS" signature="populationDensity_when_result_is_2()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="populationDensity_when_result_is_2" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populationDensity_when_result_is_2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.StatisticsTest@4f4db0e3]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.skrill.interns.tests.StatisticsTest -->
+      <class name="com.skrill.interns.tests.TownTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="8" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_add_never_invoked()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_add_never_invoked" duration-ms="13" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_add_never_invoked -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_adds_person()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_adds_person" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_adds_person -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_countAge_when_person_is_added()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_countAge_when_person_is_added" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_countAge_when_person_is_added -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_countMen_increases()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_countMen_increases" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_countMen_increases -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_countWomen_increases()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_countWomen_increases" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_countWomen_increases -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_invokes_getAge()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_invokes_getAge" duration-ms="13" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_invokes_getAge -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="setup" is-config="true" duration-ms="1" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addPerson_invokes_getSex()[pri:0, instance:com.skrill.interns.tests.TownTest@13b06041]" name="addPerson_invokes_getSex" duration-ms="0" started-at="2013-11-29T15:38:20Z" finished-at="2013-11-29T15:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPerson_invokes_getSex -->
+      </class> <!-- com.skrill.interns.tests.TownTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

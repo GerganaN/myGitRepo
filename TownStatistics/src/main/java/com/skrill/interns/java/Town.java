@@ -54,6 +54,9 @@ public class Town {
 	public long getCountMen() {
 		return countMen;
 	}
+	public List<Person> getPopulation(){
+		return population;
+	}
 
 	public void addPerson(Person person) {
 		if (person != null) {
@@ -80,7 +83,7 @@ public class Town {
 		s.append("Info for people in town : \n");
 		for (int i = 0; i < countPopulation; i++) {
 			s.append(population.get(i).getfName());
-			s.append(", ");
+			s.append(" ");
 			s.append(population.get(i).getlName());
 			s.append(", ");
 			s.append(population.get(i).getAge());

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.skrill.interns.tests.StatisticsTest">
         <methods>
+          <include name="procentFreeZone_methods_are_invoked"/>
           <include name="setup"/>
-          <include name="oldestTown_methods_not_invoked_when_null"/>
         </methods>
       </class> <!-- com.skrill.interns.tests.StatisticsTest -->
     </classes>

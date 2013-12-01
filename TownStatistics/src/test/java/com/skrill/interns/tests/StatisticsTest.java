@@ -166,16 +166,18 @@ public class StatisticsTest {
 		// THEN
 		assertEquals(result, null);
 	}
- //test averageAge if getCountPopulation is zero
 
-@Test
-public void averageAge_when_getCountPopulation_is_zero() throws Exception {
-	// GIVEN
-	// WHEN
-	result = statistics.averageAge(town);
-	// THEN
-	assertNull(result);
-}	
+	// test averageAge if getCountPopulation is zero
+
+	@Test
+	public void averageAge_when_getCountPopulation_is_zero() throws Exception {
+		// GIVEN
+		// WHEN
+		result = statistics.averageAge(town);
+		// THEN
+		assertNull(result);
+	}
+
 	// test averageAge if getCountPopAge is invoked
 	@Test
 	public void averageAge_invokes_getCountPopAge() throws Exception {
@@ -196,8 +198,8 @@ public void averageAge_when_getCountPopulation_is_zero() throws Exception {
 		verify(townSpy).getCountPopulation();
 	}
 
-	//test averageAge just a test
-	
+	// test averageAge just a test
+
 	@Test
 	public void averageTest_when_result_is_35() throws Exception {
 		// GIVEN
@@ -210,8 +212,9 @@ public void averageAge_when_getCountPopulation_is_zero() throws Exception {
 		// THEN
 		assertEquals(result, BigDecimal.valueOf(35));
 	}
-	//test oldestTown when country is null
-	
+
+	// test oldestTown when country is null
+
 	@Test
 	public void oldestTown_when_country_is_null() throws Exception {
 		// GIVEN
@@ -221,21 +224,81 @@ public void averageAge_when_getCountPopulation_is_zero() throws Exception {
 		// THEN
 		assertNull(result);
 	}
-	//test oldestTown that other methods are  invoked
-	
+
+	// test oldestTown that other methods are invoked
+
 	@Test
 	public void oldestTown_methods_are_invoked() throws Exception {
 		// GIVEN
-		country =new Country("bulgaria");
+		country = new Country("bulgaria");
 		country.addTown(townSpy);
 		countrySpy = spy(country);
-		
+
 		// WHEN
 		statistics.oldestPeopleTown(countrySpy);
 		// THEN
 		verify(countrySpy).getTowns();
 		verify(townSpy).getCountPopAge();
-		
-		
+
+	}
+
+	@Test
+	public void procentFreeZone_when_country_is_null() throws Exception {
+		// GIVEN
+		country = null;
+		// WHEN
+		BigDecimal result = statistics.procentFreeZone(country);
+		// THEN
+		assertNull(result);
+	}
+
+	// test procentFreeZone that other methods are invoked
+
+	@Test
+	public void procentFreeZone_methods_are_invoked() throws Exception {
+		// GIVEN
+		country = new Country("bulgaria", 300);
+		country.addTown(townSpy);
+		countrySpy = spy(country);
+
+		// WHEN
+		statistics.procentFreeZone(countrySpy);
+		// THEN
+		verify(countrySpy).totalArea();
+		verify(countrySpy).getFreeZone();
+
+	}
+
+	// test procentFreeZone when totalArea is null
+	@Test
+	public void procentFreeZone_when_totalArea_null() {
+		// given
+		country = new Country("bulgaria", 0);
+		// when
+		BigDecimal result = statistics.procentFreeZone(country);
+		// then
+		assertNull(result);
+	}
+
+	// test countrydensity when country ius null
+	@Test
+	public void countryDensity_when_country_null() {
+		// given
+		country = null;
+		// when
+		BigDecimal result = statistics.countryDensity(country);
+		// then
+		assertNull(result);
+	}
+
+	// test marriedcouples when country is null
+	@Test
+	public void marriedcouples_when_country_null() {
+		// given
+		town = null;
+		// when
+		int result = statistics.countMarriedPeople(town);
+		// then
+		assertEquals(result, 0);
 	}
 }

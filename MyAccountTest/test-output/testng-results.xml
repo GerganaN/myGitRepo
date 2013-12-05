@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16046" started-at="2013-12-05T08:46:58Z" finished-at="2013-12-05T08:47:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16046" started-at="2013-12-05T08:46:58Z" finished-at="2013-12-05T08:47:14Z">
+      <class name="com.skrill.interns.MyAccountUnitTest">
+        <test-method status="PASS" signature="when_registration_fails()[pri:0, instance:com.skrill.interns.MyAccountUnitTest@6d46b6db]" name="when_registration_fails" duration-ms="6" started-at="2013-12-05T10:46:58Z" finished-at="2013-12-05T10:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_registration_fails -->
+        <test-method status="PASS" signature="when_registration_is_successful()[pri:0, instance:com.skrill.interns.MyAccountUnitTest@6d46b6db]" name="when_registration_is_successful" duration-ms="16029" started-at="2013-12-05T10:46:58Z" finished-at="2013-12-05T10:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_registration_is_successful -->
+      </class> <!-- com.skrill.interns.MyAccountUnitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

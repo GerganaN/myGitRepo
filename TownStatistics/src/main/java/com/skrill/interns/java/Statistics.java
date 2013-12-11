@@ -48,9 +48,7 @@ public class Statistics {
 	}
 
 	public Town oldestPeopleTown(Country country) {
-		if (country == null) {
-			return null;
-		}
+		
 		Town oldestPeopleTown = null;
 
 		try {
@@ -59,6 +57,9 @@ public class Statistics {
 			Statistics stat = new Statistics();
 			BigDecimal oldestAge = stat.averageAge(oldestPeopleTown);
 
+			if (oldestAge == null || countryTownsList == null){
+				return null;
+			}
 			for (int i = 1; i < country.getCountTowns(); i++) {
 				if (oldestAge
 						.compareTo(stat.averageAge(countryTownsList.get(i))) == -1) {
@@ -69,7 +70,7 @@ public class Statistics {
 			return oldestPeopleTown;
 		} catch (NullPointerException ex) {
 			System.out.println("Exception found! Program ends.");
-			System.exit(0);
+			
 		}
 		return oldestPeopleTown;
 	}
@@ -80,7 +81,7 @@ public class Statistics {
 		}
 		long totalArea = country.totalArea();
 		long freeZone = country.getFreeZone();
-		if (totalArea == 0){
+		if (totalArea == 0){ 
 			return null;
 		}
 		BigDecimal procent = (BigDecimal.valueOf(freeZone).divide(
@@ -94,6 +95,9 @@ public class Statistics {
 			long area = country.totalArea();
 			long countPop = 0;
 			List<Town> countryTownsList = country.getTowns();
+			if (countryTownsList == null){
+				return null;
+			}
 			for (int i = 0; i < country.getCountTowns(); i++) {
 				countPop += countryTownsList.get(i).getCountPopulation();
 			}

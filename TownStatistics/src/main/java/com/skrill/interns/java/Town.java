@@ -20,7 +20,7 @@ public class Town {
 
 	public Town(String name, int area) {
 		this.name = name;
-		this.area = area;
+		this.area = area; 
 	}
 
 	public String getName() {

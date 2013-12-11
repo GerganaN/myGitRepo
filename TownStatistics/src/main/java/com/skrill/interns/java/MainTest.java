@@ -66,10 +66,10 @@ public class MainTest {
 
 		Town sofia = new Town("Sofia", 100000);
 		Town london = new Town("London", 20000);
-		Town plovdiv = new Town("Plovdiv", 30000);
+		Town plovdiv = new Town("Plovdiv", 30000); 
 
 		Random randomGenerator = new Random();
-		for (int i = 1; i <= 30; i++) {
+		for (int i = 1; i <= 100; i++) {
 			Person person;
 			int age = randomGenerator.nextInt(100);
 			char sex = 'm';
@@ -94,7 +94,7 @@ public class MainTest {
 
 		}
 
-		Country bulgaria = new Country("Bulgaria", 200000);
+		Country bulgaria = new Country("Bulgaria", 200000); 
 		Statistics stat = new Statistics();
 
 		bulgaria.addTown(sofia);

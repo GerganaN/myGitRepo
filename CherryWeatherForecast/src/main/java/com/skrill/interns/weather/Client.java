@@ -1,18 +1,24 @@
 package com.skrill.interns.weather;
 
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.net.Socket;
+import java.net.SocketException;
+import java.net.SocketTimeoutException;
+import java.net.UnknownHostException;
 import java.nio.ByteBuffer;
 import java.util.Scanner;
 
 public class Client {
     private static Socket socket;
-    private static final int TIMEOUT = 20000;
+    private static final int TIMEOUT = 10000;
 
     public static void main(String args[]) {
 
         try {
-            socket = new Socket("localhost", 2222);
+            socket = new Socket("localhost", 2000);
             socket.setSoTimeout(TIMEOUT);
 
             OutputStream out = socket.getOutputStream();
@@ -36,17 +42,14 @@ public class Client {
             System.out.println(forecast.trim());
             socket.close();
 
-        } catch (UnknownHostException e1) {
+        } catch (UnknownHostException e) {
             System.err.println("Unknown IP Address!");
-            e1.printStackTrace();
         } catch (SocketException e) {
-            System.err.println("Socket is closed");
-            e.printStackTrace();
+            System.err.println("Socket is closed!");
         } catch (SocketTimeoutException e) {
             System.err.println("Timetout expired!");
+        } catch (IOException e) {
             e.printStackTrace();
-        } catch (IOException e1) {
-            e1.printStackTrace();
         }
 
     }
